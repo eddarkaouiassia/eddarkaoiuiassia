@@ -3,6 +3,9 @@ body, html {
     padding: 0;
     font-family: Arial, sans-serif;
 }
+html{
+    scroll-behavior: smooth;
+}
 header {
     display: flex;
     justify-content: space-between;
@@ -109,7 +112,84 @@ h2{
     font-size: 20px;
     background-color: rgb(204, 231, 204);
     border-radius: 30px;
-
+}
+.AE{
+    flex-direction: column;
+    height: 100vh;
+    text-align: center;
+    position: relative;
+    height: 50%;
+}
+.MM{
+    position: absolute;
+    top: 50%;
+    left: 38%;
+    transform: translate(-50%, -50%);
+}
+.image{
+    text-align: right;
+}
+h3{
+    color: black;
+    background-color: beige ;
+}
+.image img{
+    width: 100%;
+    max-width: 450px;
+    border-radius: 80px;
+}
+.AZ{
+    flex-direction: column;
+    height: 100vh;
+    text-align: center;
+    position: relative;
+    height: 50%;
+}
+.NN{
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    text-align: right;
+}
+.imag{
+    text-align: left;
+}
+.imag img{
+    width: 100%;
+    max-width: 450px;
+    border-radius: 80px;
+}
+.AQ{
+    flex-direction: column;
+    height: 100vh;
+    position: relative;
+    height: 50%;
+}
+.AP{
+    flex-direction: column;
+    height: 100vh;
+    text-align: center;
+    position: relative;
+    height: 50%;
+}
+.pp{
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    text-align: right;
+}
+.ima{
+    text-align: left;
+}
+.ima img{
+    width: 100%;
+    max-width: 600px;
+    border-radius: 80px;
+}
+strong{
+    color: rgb(129, 75, 75);
 }
 .Assia {
     position: relative;
