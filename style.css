@@ -56,6 +56,7 @@ a:hover{
     font-size: 80px;
     margin: 0;
     animation: slide-in 3s;
+    font-family: 'Times New Roman', Times, serif;
 }
 @keyframes slide-in{
     from{
@@ -119,6 +120,7 @@ h2{
     text-align: center;
     position: relative;
     height: 50%;
+    background-color: wheat;
 }
 .MM{
     position: absolute;
@@ -136,6 +138,7 @@ h3{
 .image img{
     width: 100%;
     max-width: 450px;
+    margin-top: 20px;
     border-radius: 80px;
 }
 .AZ{
@@ -150,7 +153,7 @@ h3{
     top: 50%;
     left: 60%;
     transform: translate(-50%, -50%);
-    text-align: right;
+    text-align: center;
 }
 .imag{
     text-align: left;
@@ -159,12 +162,14 @@ h3{
     width: 100%;
     max-width: 450px;
     border-radius: 80px;
+    margin-bottom: 20px;
 }
 .AQ{
     flex-direction: column;
     height: 100vh;
     position: relative;
     height: 50%;
+    background-color: wheat;
 }
 .AP{
     flex-direction: column;
@@ -178,35 +183,42 @@ h3{
     top: 50%;
     left: 60%;
     transform: translate(-50%, -50%);
-    text-align: right;
+    text-align: center;
 }
 .ima{
     text-align: left;
 }
 .ima img{
     width: 100%;
-    max-width: 600px;
+    max-width: 550px;
+    height: 100%;
+    max-height: 600px;
     border-radius: 80px;
+    margin-top: 20px;
 }
 strong{
-    color: rgb(129, 75, 75);
+    color: brown;
 }
 .Assia {
     position: relative;
     height: 700px;
-    width: 100%;
+    width: 1450px;
+    text-align: center;
 }
 .Assia img {
     width: 100%;
     height: 700px;
+    text-align: center;
+    border-radius: 20px;
 }
 .Edd {
     position: absolute;
-    top: 30%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    color: white;
+    color: black;
+    background-color: white;
 }
 h3 {
     font-size: 25px;
@@ -221,11 +233,18 @@ p {
 .eeee {
     position: relative;
     height: 700px;
-    width: 100%;
+    width: 1450px;
+    text-align: center;
+}
+.A strong{
+    color: #3b483b;
+    font-size: 20px;
 }
 .eeee img {
     width: 100%;
     height: 700px;
+    text-align: center;
+    border-radius: 20px;
 }
 .contact-us {
     text-align: center;
